@@ -1,0 +1,23 @@
+body{
+    color: #2e2f42;
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    background-color: #ffffff;
+}
+
+
+
+p{
+    color: #434455;
+}
+
+.slogan{
+    background-color: #2E2F42;
+}
+
+.footer{
+    background-color: #2E2F42;
+}
+
+.footer-text{
+    color: #F4F4FD;
+}
