@@ -53,20 +53,16 @@ p {
 
 
 
-.mail {
+.direct-link {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.mail:hover,
-.mail:focus {
+.direct-link:hover,
+.direct-link:focus {
     color: #404bbf;
-}
-
-.phone {
-
 }
 
 .slogan {
