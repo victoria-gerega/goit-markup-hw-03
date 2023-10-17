@@ -80,7 +80,7 @@ p {
     letter-spacing: 0.02em;
 }
 
-.order {
+.buy {
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     color: white;
@@ -90,8 +90,8 @@ p {
     letter-spacing: 0.04em;
 }
 
-.order:hover,
-.order:focus {
+.buy:hover,
+.buy:focus {
     background-color: #404bbf;
 }
 
@@ -139,10 +139,7 @@ p {
 }
 
 .portfolio {
-    background-color: #fff;
-}
-
-.cases {
+    background.cases 
     color: #2e2f42;
     font-size: 36px;
     font-weight: 700;
