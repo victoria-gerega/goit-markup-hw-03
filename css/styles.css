@@ -6,6 +6,8 @@ body {
 
 ul {
     list-style-type: none;
+    margin: 0 auto;
+    padding-left: 0;
 }
 
 a {
@@ -15,10 +17,44 @@ a {
 p {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+}
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.container {
+    max-width: 1158px;
+
+    margin-left: 
+    margin-right: 
 }
 
 .header {
     background-color: #ffffff;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-left: 156px;
+    padding-right: 156px;
+    padding-bottom: 24px;
+}
+
+.header-navigation {
+    display: flex;
 }
 
 .header-logo {
@@ -29,10 +65,15 @@ p {
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    margin-right: 76px;;
 }
 
 .accent {
     color: #2e2f42;
+}
+
+.header-menu {
+    display: flex;
 }
 
 .header-list-item {
@@ -40,6 +81,11 @@ p {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em; 
+    margin-right: 40px;
+}
+
+.header-list-item:last-child {
+    margin-right: 0px;
 }
 
 .header-menu-link:hover, 
@@ -53,6 +99,17 @@ p {
 
 .contacts {
     font-style: normal;
+}
+.contacts-list {
+    display: flex;
+}
+
+.contacts-list-item {
+    margin-right: 40px;
+}
+
+.contacts-list-item:last-child {
+    margin-right: 0px;
 }
 
 .direct-link {
