@@ -35,26 +35,22 @@ section {
 
 .container {
     max-width: 1158px;
-
-    margin-left: 
-    margin-right: 
 }
 
 .header {
     background-color: #ffffff;
-}
-
-.header .container {
-    display: flex;
-    justify-content: space-between;
     padding-top: 24px;
-    padding-left: 156px;
-    padding-right: 156px;
     padding-bottom: 24px;
 }
 
-.header-navigation {
+.header-container {
     display: flex;
+
+}
+
+.nav {
+    display: flex;
+    flex-grow: 1;
 }
 
 .header-logo {
@@ -65,15 +61,18 @@ section {
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    margin-right: 76px;;
+    margin-right: 76px;
+    display: flex;
+    align-items: center;
 }
 
 .accent {
     color: #2e2f42;
 }
 
-.header-menu {
+.menu-header {
     display: flex;
+    flex-grow: 1;
 }
 
 .header-list-item {
@@ -100,12 +99,12 @@ section {
 .contacts {
     font-style: normal;
 }
-.contacts-list {
+
+.contactainer {
     display: flex;
 }
 
-.contacts-list-item {
-    margin-right: 40px;
+.contacts-list-item  {
 }
 
 .contacts-list-item:last-child {
