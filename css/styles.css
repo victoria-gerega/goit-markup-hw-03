@@ -29,6 +29,7 @@ img {
 }
 
 .section {
+    margin: 0 auto;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -47,10 +48,12 @@ img {
 .header-container {
     display: flex;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .header-navigation {
     display: flex;
+    flex-shrink: 0;
 }
 
 .header-logo {
@@ -113,6 +116,13 @@ img {
 
 .slogan {
     background-color: #2e2f42;
+    padding: 188px auto;
+}
+
+.slogan-container {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
 }
 
 .slogan-name {
@@ -121,6 +131,8 @@ img {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    width: 496px;
+    margin-bottom: 48px;
 }
 
 .buy {
@@ -131,11 +143,32 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    padding: 16px 32px;
+    margin: 0 auto;
 }
 
 .buy:hover,
 .buy:focus {
     background-color: #404bbf;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.div-features {
+    display: flex;
+    padding: 15px; 
+}
+
+.features-list {
+    display: flex;
+    gap: 24px;
+    
+}
+
+.features-item {
+    width: calc((1138px - 72px) / 4);
 }
 
 .features-subtitle {
@@ -144,6 +177,8 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    
 }
 
 .features-text {
@@ -155,6 +190,16 @@ img {
     background-color: #f4f4fd;
 }
 
+.team-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-team {
+    display: flex;
+    gap: 24px;
+}
+
 .team-name {
     color: #2e2f42;
     font-size: 36px;
@@ -162,10 +207,15 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-list {
     background-color: #ffffff;
+}
+
+.portrait{
+    margin-bottom: 32px;
 }
 
 .team-list-member {
@@ -174,6 +224,11 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.team-description {
+    margin-bottom: 32px;
 }
 
 .portfolio {
