@@ -273,6 +273,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
+    column-gap: 24px;
 }
 
 .case {
@@ -331,6 +332,7 @@ img {
 
 .footer-accent {
     color: #f4f4fd;
+    display: inline-block;
 }
 
 .footer-text {
