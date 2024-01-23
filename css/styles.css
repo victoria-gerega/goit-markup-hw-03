@@ -312,12 +312,6 @@ img {
     padding: 100px 0px;
 }
 
-.div-footer {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-}
-
 .footer-logo {
     display: inline-block;
     color: #4d5ae5;
