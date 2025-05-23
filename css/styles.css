@@ -169,18 +169,14 @@ address{
   width: 1px;
 }
 
-.features {
-  padding-left: 156px;
-  padding-right: 156px;
-}
-
 .features-container {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 
 .features-item {
-
+  width: calc((1128px - 72px) / 4);
 }
 
 .features-subtitle {
@@ -193,7 +189,6 @@ address{
 .features-text {
   color: #434455;
   padding-bottom: 120px;
-  width: calc((100%-72)/4);
 }
 .team {
   background-color: #f4f4fd;
@@ -204,7 +199,7 @@ address{
 .team-container {
   display: flex;
   gap: 24px;
-  justify-content:center;
+  justify-content: center;
 }
 
 .team-title {
@@ -261,8 +256,13 @@ address{
 }
 .footer {
   background-color: #2e2f42;
-  padding: 100px;
+  padding: 100px 0px;
 }
+
+.footer-card {
+  margin-left: 156px;
+}
+
 .footer-logo {
   font-family: 'Raleway', sans-serif;
   color: #4d5ea5;
@@ -271,6 +271,7 @@ address{
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 16px;
 }
 .footer-accent {
   font-family: 'Raleway', sans-serif;
@@ -283,5 +284,7 @@ address{
 }
 .footer-text {
   color: #f4f4fd;
+  max-width: 274px;
   padding-top: 16px;
+  margin: 0;
 }
