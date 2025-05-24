@@ -47,6 +47,7 @@ img {
   background-color: #ffffff;
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-logo {
   font-family: 'Raleway', sans-serif;
@@ -211,6 +212,9 @@ address{
   text-align: center;
   padding-bottom: 72px;
 }
+.team-item {
+
+}
 .team-member {
   font-weight: 500;
   font-size: 20px;
@@ -242,6 +246,12 @@ address{
   row-gap: 24px;
   column-gap: 48px;
   justify-content: center;
+}
+
+.case-card {
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
 }
 
 .cases-name {
